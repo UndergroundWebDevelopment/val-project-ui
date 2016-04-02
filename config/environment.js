@@ -14,6 +14,7 @@ module.exports = function(environment) {
     },
 
     APP: {
+      API_HOST: process.env.API_HOST,
       // Here you can pass flags/options to your application instance
       // when it is created
     }
