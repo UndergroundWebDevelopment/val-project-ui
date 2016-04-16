@@ -1,1 +1,20 @@
-{{outlet}}
+<div class="brand">{{model.name}}</div>
+<div class="tagline-bar">{{model.tagline}}</div>
+
+{{#profile-nav}}
+{{/profile-nav}}
+
+<div class="container">
+  {{outlet}}
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+              <p>Copyright &copy; {{model.name}} 2016</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
