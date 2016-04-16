@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'alexwillemsma-webapp-ui',
+    modulePrefix: 'val-project-ui',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

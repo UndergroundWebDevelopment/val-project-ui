@@ -1,5 +1,5 @@
 {
-  "name": "alexwillemsma-webapp-ui",
+  "name": "val-project-ui",
   "dependencies": {
     "ember": "~2.4.3",
     "ember-cli-shims": "0.1.1",
