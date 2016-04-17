@@ -15,6 +15,7 @@ module.exports = function(environment) {
 
     APP: {
       API_HOST: process.env.API_HOST,
+      OAUTH_CLIENT_ID: process.env.OAUTH_CLIENT_ID,
       // Here you can pass flags/options to your application instance
       // when it is created
     }
