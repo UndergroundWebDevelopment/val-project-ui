@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('profile', { path: '/profile/:profile_id' }, function() {
     this.route('edit', {path: '/edit'});
   });
+  this.route('account', { path: '/account'}, function() {
+  });
 });
 
 export default Router;
